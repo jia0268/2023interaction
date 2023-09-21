@@ -7,8 +7,8 @@ void setup(){
 void draw(){
   imageMode(CENTER);
   if(mousePressed){
-    image(imgBox,mouseX,mouseY);
+    image(imgBox,mouseX,mouseY,250,250);
   }else{
-  image(img,mouseX,mouseY,300,400);
+  image(img,200,300,300,400);
   }
 }
